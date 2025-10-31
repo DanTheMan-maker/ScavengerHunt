@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Geo Scavenger Hunt - Demo</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Geo Scavenger Hunt - Demo</h1>
+    <div id="create">
+      <h2>Create Game</h2>
+      <button id="btnCreate">Create Game (demo)</button>
+      <div id="createResult"></div>
+    </div>
+
+    <div id="join">
+      <h2>Join Game</h2>
+      <input id="joinCode" placeholder="Enter code (e.g., ABC123)" />
+      <input id="playerName" placeholder="Your name" />
+      <button id="btnJoin">Join</button>
+      <div id="lobby"></div>
+    </div>
+
+    <div id="gameArea" style="display:none;">
+      <h2>Game</h2>
+      <div id="checkpoints"></div>
+      <button id="btnStart" style="display:none;">Start (host only)</button>
+      <div id="leaderboard"></div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

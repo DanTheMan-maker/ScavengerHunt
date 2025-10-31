@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+input { margin: 4px; padding: 6px; width: 200px; }
+button { padding: 8px 12px; margin: 6px 0; }
+#lobby { margin-top: 10px; background:#f8f8f8; padding:10px; border-radius:6px; }
